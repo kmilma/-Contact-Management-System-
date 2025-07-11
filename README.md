@@ -28,4 +28,18 @@ A beginner-level backend project built using **Django**, **Django REST Framework
 ---
 
 ## 📁 Project Structure
+Contact-Management-System/
+│
+├── contact_management/ # Project settings
+│ ├── settings.py
+│ └── asgi.py (WebSocket support)
+│
+├── contacts/ # App with models, views, urls
+│ ├── models.py
+│ ├── views.py
+│ └── routing.py (WebSocket routing)
+│
+├── db.sqlite3 # (optional) Dev database
+├── manage.py
+└── requirements.txt
 
